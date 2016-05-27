@@ -16,60 +16,48 @@
   </head>
   <body>
     <div class="container-fluid">
-      <div class="row">
-        <h1>Noah Yasskin's Web Development Portfolio</h1>
 
-        <h2>My Week One Independent Project at <strong>Epicodus</strong>: Git, HTML and CSS.<h2>
-      </div>
-      <div class="row">
-        <h2>About Me</h2>
-            <img src="img/profile.jpg" alt="Headshot Picture" class=".img-responsive">
-        <p class="lead">I decided to learn to code at <em>Epicodus</em> because it is a valuable skill.</p>
-      </div>
-      <div class="row">
-        <h2>Coding Skills</h2>
+      <!-- Placeholder for possible future header
+      <header class="page-header">
         <ul>
-          <li>Basic HTML</li>
-          <li>Rudimentary CSS</li>
-          <li>Git and GitHub</li>
+          <li class="active"><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Projects</a></li>
         </ul>
+      </header>
+      --->
+
+      <div class="jumbotron">
+        <h1>Noah Yasskin's Web Development Portfolio</h1>
+        <h2>My Week One Independent Project at <strong>Epicodus</strong>: Git, HTML and CSS.</h2>
+        <p> My site is published on GitHub at <code>http://yasskin.github.io/portfolio</code></p>
+        <p><a class="btn btn-primary btn-lg" href="https://github.com/yasskin/myportfolio.git" role="button">Portfolio Landing Page</a></p>
       </div>
+
       <div class="row">
-        <h2>Job Experience</h2>
+        <div class="col-md-6">
+          <h2>About Me</h2>
+          <img src="img/profile.jpg" alt="Headshot Picture" class="myfloats" class=".img-responsive">
+          <p class="lead">Why I decided to learn how to learn to code at <em>Epicodus</em></p>
+          <blockquote>
+            <p><em>I chose the coding bootcamp at Epicodus because we code all day everyday.</em></p>
+          </blockquote>
+          <h2>Coding Skills</h2>
           <ul>
-            <li><strong>Thread Creative</strong>. <em>Copyeditor</em> - Portland, OR (2016 to present)</li>
-            <li><em>Writer and Dissertator</em> - Portland, OR <span class="initialism">(2012 to 2015)</span></li>
-            <li><strong>University of Wisconsin-Madison</strong> - Madison, WI <span class="initialism">(2005 to 2012)</span>. <em>Instructor and Teaching Assistant</em></li>
-            <li><strong>Capitol One</strong> - San Diego, CA <span class="initialism">(2002 to 2003)</span>. <em>Senior Market Research Analyst</em></li>
-            <li><strong>Jupiter Media Metrix</strong> - New York, NY and London, England <span class="initialism">(1997 to 2002)</span>. <em>European Research Director and Senior Analyst</em></li>
-        </ul>
-      </div>
-      <div class="row">
-        <h2>Secondary Education</h2>
-          <ul>
-            <li>Current student, <strong>Epicodus</strong> - Portland, OR</li>
-            <li>A.B.D. History,  University of Wisconsin-Madison - Madison, WI</li>
-            <li>M.A. History, <strong>University of Wisconsin-Madison</strong> - Madison, WI</li>
-            <li>Coursework toward an M.A. in Philosophy, <strong>The New School for Social Research</strong> - New York, NY</li>
-            <li>B.A. Social and Historical Studies, <strong>Eugene Lange Collge of Liberal Arts</strong> - New York, NY</li>
-          </ul>
-      </div>
-      <div class="row">
-        <h2>Volunteer</h2>
-        <p>I volunteer at Literary Arts in downtown Portland, OR.</p>
-        <h2>Hobbies</h2>
-        <p>I like to read, walk, bike, watch movies and spend time with family and friends.</p>
-      </div>
-      <div class="row">
-        <h2>Epicodus Student Projects: Week One</h2>
-        <p>Here is list of the projects I created during my first week at Epicodus with active links to each one (either on GitHub or GitHub pages).</p>
-          <ol>
-      </div>
-      <div class="row" class="myprojects">
-        <li><mark>My independent project</mark>:<a href="https://github.com/yasskin/myportfolio.git">Portfolio Landing Page</a></li>
-          <p>A Portfolio webpage demonstrating that I know how to use HTML CSS, Git and Bootstrap.</p>
-      </div>
-      <div class="row">
+            <li>Basic HTML</li>
+            <li>Rudimentary CSS</li>
+            <li>Git and GitHub</li>
+            </ul>
+        </div>
+
+        <div class="col-md-6">
+          <h2>Epicodus Student Projects: Week One</h2>
+          <p>Here is list of the projects I created during my first week at Epicodus with active links to each one (either on GitHub or GitHub pages).</p>
+            <ol>
+
+        <li>My first independent project: <a href="https://github.com/yasskin/myportfolio.git">Portfolio Landing Page</a></li>
+          <p> A Portfolio webpage demonstrating that I know how to use HTML CSS, Git and Bootstrap.</p>
+          <p> My site is published at <code>http://yasskin.github.io/portfolio</code></p>
         <li><a href="https://github.com/yasskin/wikipedia.git">Wikipedia Clone</a></li>
           <p> An exercise that attempts to recreate the Wikipedia website using Bootstrap layout</p>
         <li><a href="https://github.com/yasskin/trumpresort.git">Vacation Site</a></li>
@@ -82,6 +70,8 @@
           <p> A basic HTML website using div and span CSS styling.</p>
         <li><a href="https://github.com/yasskin/blogging.git">Blogging Site</a></li>
           <p> A basic HTML website using CSS styling</p>
+        <li><a href="https://github.com/yasskin/band.git">Favorite Band</a></li>
+            <p> A basic HTML website using CSS styling</p>
         <li><a href="https://github.com/yasskin/resume.git">Resume</a></li>
           <p> A basic HTML website using div and span CSS styling.</p>
         <li><a href="https://github.com/yasskin/boringlecture.git">Boring Lecture</a></li>
@@ -99,10 +89,43 @@
         </ol>
       </div>
 
+      <div class="row">
+        <div class="col-md-4">
+        <h2>Job Experience</h2>
+          <ul>
+            <li><strong>Thread Creative</strong>. <em>Copyeditor</em> - Portland, OR (2016 to present)</li>
+            <li><em>Writer and Dissertator</em> - Portland, OR <span class="initialism">(2012 to 2015)</span></li>
+            <li><strong>University of Wisconsin-Madison</strong> - Madison, WI <span class="initialism">(2005 to 2012)</span>. <em>Instructor and Teaching Assistant</em></li>
+            <li><strong>Capitol One</strong> - San Diego, CA <span class="initialism">(2002 to 2003)</span>. <em>Senior Market Research Analyst</em></li>
+            <li><strong>Jupiter Media Metrix</strong> - New York, NY and London, England <span class="initialism">(1997 to 2002)</span>. <em>European Research Director and Senior Analyst</em></li>
+          </ul>
+        </div>
+
+        <div class="col-md-4">
+        <h2>Secondary Education</h2>
+          <ul>
+            <li>Current student, <strong>Epicodus</strong> - Portland, OR</li>
+            <li>A.B.D. History,  University of Wisconsin-Madison - Madison, WI</li>
+            <li>M.A. History, <strong>University of Wisconsin-Madison</strong> - Madison, WI</li>
+            <li>Coursework toward an M.A. in Philosophy, <strong>The New School for Social Research</strong> - New York, NY</li>
+            <li>B.A. Social and Historical Studies, <strong>Eugene Lange Collge of Liberal Arts</strong> - New York, NY</li>
+          </ul>
+        </div>
+
+        <div class="col-md-4">
+          <h2>Volunteer</h2>
+          <p>I volunteer at Literary Arts in downtown Portland, OR.</p>
+          <h2>Hobbies</h2>
+          <p>I like to read, walk, bike, watch movies and spend time with family and friends.</p>
+        </div>
+
+
+
       <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
       <!-- Include all compiled plugins (below), or include individual files as needed -->
       <script src="js/bootstrap.min.js"></script>
+      </div>
     </div>
   </body>
 </html>
