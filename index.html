@@ -11,7 +11,7 @@
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <!-- My CSS Stylesheet -->
-    <link href="css/mystyle.css" rel="stylesheet" type="text.css">
+    <link href="css/mystyle.css" rel="stylesheet">
 
   </head>
   <body>
@@ -28,30 +28,32 @@
       --->
 
       <div class="jumbotron">
-        <h1>Noah Yasskin's Web Development Portfolio</h1>
+        <h1> Noah Yasskin's Web Development Portfolio</h1>
         <h2>My Week One Independent Project at <strong>Epicodus</strong>: Git, HTML and CSS.</h2>
         <p> My site is published on GitHub at <code>http://yasskin.github.io/portfolio</code></p>
         <p><a class="btn btn-primary btn-lg" href="https://github.com/yasskin/myportfolio.git" role="button">Portfolio Landing Page</a></p>
       </div>
 
+      <!-- About Me and Epicodus Projects -->
       <div class="row">
         <div class="col-md-6">
-          <h2>About Me</h2>
-          <img src="img/profile2.jpg" alt="Headshot Picture" class="myfloats" class=".img-responsive">
+          <h2><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span> About Me (including a picture of my lovely wife)</h2>
           <p class="lead">Why I decided to learn how to learn to code at <em>Epicodus</em></p>
           <blockquote>
             <p><em>I chose the coding bootcamp at Epicodus because we code all day everyday.</em></p>
           </blockquote>
-          <h2>Coding Skills</h2>
+          <img src="img/profile2.jpg" alt="Headshot Picture" class="img-responsive img-rounded">
+
+          <h2><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span> Coding Skills</h2>
           <ul>
-            <li>Basic HTML</li>
-            <li>Rudimentary CSS</li>
-            <li>Git and GitHub</li>
+            <li id="myskills"><strong>Basic HTML</strong></li>
+            <li id="myskills"><strong>Rudimentary CSS</strong></li>
+            <li id="myskills"><strong>Git and GitHub</strong></li>
             </ul>
         </div>
 
         <div class="col-md-6">
-          <h2><strong>Epicodus</strong> Student Projects: Week One</h2>
+          <h2><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span> <strong>Epicodus</strong> Student Projects: Week One</h2>
           <p>Here is list of the projects I created during my first week at Epicodus with active links to each one (either on GitHub or GitHub pages).</p>
             <ol>
 
@@ -86,12 +88,17 @@
           <p> A simple HTML website about pets.</p>
         <li><a href="https://github.com/yasskin/goodbye.git">Goodbye World</a></li>
           <p> A simple HTML webpage.</p>
+
         </ol>
       </div>
 
+      <hr>
+
+      <!-- Experience, Education and Volunteer -->
+
       <div class="row">
-        <div class="col-md-4">
-        <h2>Job Experience</h2>
+        <div class="col-md-6">
+        <h2><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span> Job Experience</h2>
           <ul>
             <li><strong>Thread Creative</strong>. <em>Copyeditor</em> - Portland, OR (2016 to present)</li>
             <li><em>Writer and Dissertator</em> - Portland, OR <span class="initialism">(2012 to 2015)</span></li>
@@ -101,8 +108,8 @@
           </ul>
         </div>
 
-        <div class="col-md-4">
-        <h2>Secondary Education</h2>
+        <div class="col-md-6">
+        <h2><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span> Secondary Education</h2>
           <ul>
             <li>Current student, <strong>Epicodus</strong> - Portland, OR</li>
             <li>A.B.D. History,  University of Wisconsin-Madison - Madison, WI</li>
@@ -112,20 +119,38 @@
           </ul>
         </div>
 
-        <div class="col-md-4">
-          <h2>Volunteer</h2>
+        <div class="col-md-6">
+          <h2><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span> Volunteering and Hobbies</h2>
           <p>I volunteer at <strong>Literary Arts</strong> in downtown Portland, OR.</p>
-          <h2>Hobbies</h2>
           <p>I like to read, walk, bike, watch movies and spend time with family and friends.</p>
         </div>
-
+      </div>
 
 
       <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
       <!-- Include all compiled plugins (below), or include individual files as needed -->
       <script src="js/bootstrap.min.js"></script>
+
       </div>
     </div>
   </body>
 </html>
+
+  <!--  Requirements for your page:
+
+Your name
+An image of you or something that represents who you are
+A list of projects you have created with active links to them (either on GitHub or GitHub pages)
+For each, include a brief description of the project and what languages it uses
+An “About Me” section
+Include your background (education, job experience, or why did you decide to take a class on programming, etc)
+Your current interests/hobbies/skills
+Create a gh-pages branch so that you site can be viewed on GitHub Pages at your-username.github.io/portfolio (for example).
+Don't forget your Git commits and include a README in your GitHub repository!
+
+These HTML tags are incorporated:
+p, h, ul, ol, li, em, strong, a, img, div, span
+Bootstrap classes are used to style your page.
+Indentation and spacing of HTML and CSS is accurate.
+-->

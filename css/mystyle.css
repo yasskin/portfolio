@@ -1,7 +1,22 @@
-body {
+
+/* Custom-Made stylesheet that uses cascading, the box model, and floats.
+========================================================================*/
+
+
+.body {
   font-family: sans-serif;
+  padding: 50px 20px 50px 50px;
 }
 
-.myprojects {
-  color: blue;
+.img {
+  float: left;
+  max-width: 450;
 }
+
+#myskills {
+  color: #5cb85c;
+}
+
+/*
+Bootstrap classes are used to style the rest of my page.
+*/
